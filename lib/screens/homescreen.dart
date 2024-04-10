@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text('ToDo List'),
         centerTitle: true,
-        backgroundColor: const Color.fromARGB(200, 167, 194, 208),
+        backgroundColor: Color.fromARGB(199, 218, 13, 13),
       ),
       body: ValueListenableBuilder<Box<ToDo>>(
         valueListenable: Boxes.getData().listenable(),
@@ -175,7 +175,7 @@ class _HomeScreenState extends State<HomeScreen> {
         },
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: const Color.fromARGB(200, 167, 194, 208),
+        backgroundColor: Color.fromARGB(199, 237, 44, 44),
         onPressed: adddialog,
         child: const Icon(Icons.add),
       ),
